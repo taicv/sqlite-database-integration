@@ -20,7 +20,7 @@ function sqlite_add_admin_menu() {
 		'sqlite_integration_admin_screen'
 	);
 }
-add_action( 'admin_menu', 'sqlite_add_admin_menu' );
+//TAICV add_action( 'admin_menu', 'sqlite_add_admin_menu' );
 
 /**
  * The admin page contents.
@@ -146,4 +146,4 @@ function sqlite_plugin_adminbar_item( $admin_bar ) {
 	);
 	$admin_bar->add_node( $args );
 }
-add_action( 'admin_bar_menu', 'sqlite_plugin_adminbar_item', 999 );
+// TAICV add_action( 'admin_bar_menu', 'sqlite_plugin_adminbar_item', 999 );

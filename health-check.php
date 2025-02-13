@@ -59,7 +59,7 @@ function sqlite_plugin_filter_debug_data( $info ) {
 
 	return $info;
 }
-add_filter( 'debug_information', 'sqlite_plugin_filter_debug_data' ); // Filter debug data in site-health screen.
+//TAICV add_filter( 'debug_information', 'sqlite_plugin_filter_debug_data' ); // Filter debug data in site-health screen.
 
 /**
  * Filter site_status tests in site-health screen.

@@ -4170,7 +4170,12 @@ class WP_SQLite_Translator {
 		if ( false === $this->is_error ) {
 			return '';
 		}
-
+		
+		
+		//taicv
+		return "\n".$this->mysql_query."\n";
+		//taicv
+		
 		$output  = '<div style="clear:both">&nbsp;</div>' . PHP_EOL;
 		$output .= '<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">' . PHP_EOL;
 		$output .= '<p>MySQL query:</p>' . PHP_EOL;

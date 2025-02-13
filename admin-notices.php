@@ -70,7 +70,7 @@ function sqlite_plugin_admin_notice() {
 		)
 	);
 }
-add_action( 'admin_notices', 'sqlite_plugin_admin_notice' ); // Add the admin notices.
+// TAICV add_action( 'admin_notices', 'sqlite_plugin_admin_notice' ); // Add the admin notices.
 
 // Remove the PL-plugin admin notices for SQLite.
 remove_action( 'admin_notices', 'perflab_sqlite_plugin_admin_notice' );
